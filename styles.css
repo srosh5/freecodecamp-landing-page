@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header-img {
+    width: 300px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: beige;
+    padding: 10 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+form {
+    padding-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 175px;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 200px;
+}
+
+#submit {
+    width: 120px;
+    border: solid 0px;
+    background-color: orange;
+    padding: 8;
+    font-weight: bold;
+}
+
+.icon {
+    width: 40px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.point-text {
+    max-width: 700px
+}
+
+ul {
+    padding: 50px 0;
+}
+
+#video1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.box {
+    border: 1px solid black;
+    width: 220px;
+    min-width: 220px;
+    text-align: center;
+    height: 245px;
+}
+
+.box-heading {
+    background-color: beige;
+    padding: 10 0;
+}
+
+.box-text {
+    padding: 5 0
+}
+
+.box-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    border: 0px;
+    background-color: orange;
+    padding: 10px;
+    margin-top: 15;
+}
+
+#pricing {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 60px;
+    width: 750px;
+    max-width: 100%;
+    height: 60px;
+    background-color: beige;
+    margin: 50 auto 0 auto;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 10px
+}
+
+#copyright {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: grey;
+}
+
+@media (max-width: 400px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: beige;
+        padding: 10 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+
+    #pricing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
